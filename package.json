@@ -1,0 +1,37 @@
+{
+  "name": "bot-creative-chats",
+  "version": "1.0.0",
+  "description": "A bot",
+  "main": "disc/app.js",
+  "scripts": {
+    "test": "nodemon --config nodemon.json src/app.ts",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creative-Chats/bot-creative-chats.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "js",
+    "ts"
+  ],
+  "author": "Diego Aquino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Creative-Chats/bot-creative-chats/issues"
+  },
+  "homepage": "https://github.com/Creative-Chats/bot-creative-chats#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.39",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
